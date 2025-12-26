@@ -130,6 +130,7 @@ if __name__ == "__main__":
 
     # Обрахунок кількості кроків (вузлів)
     total_steps = count_nodes(heap_tree_root)
+    print(f"Total nodes in heap tree: {total_steps}")
 
     # DFS візуалізація
     dfs_colors = dfs_visualize(heap_tree_root, total_steps)
